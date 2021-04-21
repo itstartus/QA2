@@ -17,5 +17,16 @@ export const labels = {
     widgets: "Widgets",
     interactions: "Interactions",
     books: "Book Store Application",
-    textBox: "Text Box"
+    textBox: "Text Box",
+    textBoxLabels: {
+        fullName : "Full Name",
+        email: "Email",
+        currentAddress: "Current Address",
+        permAddress: "Permanent Address"
+    },
+    textBoxPlaceholders: {
+        fullName: "Full Name",
+        email: "name@example.com",
+        currentAddress: "Current Address"
+    }
 }
