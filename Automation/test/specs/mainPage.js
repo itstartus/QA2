@@ -1,5 +1,5 @@
 const expect = require("chai").expect;
-import {URLs, labels} from "../../expected";
+import {URLs, labels, tiles} from "../../expected";
 describe("Main page test suite", () => {
   it("Validate the title of the main page", () => {
     browser.url("https://demoqa.com/");
@@ -8,7 +8,7 @@ describe("Main page test suite", () => {
   });
   it("Validate the number of tiles on the main page", () => {
     const elements = $$("div.category-cards > div");
-    expect(elements.length).to.equal(6);
+    expect(elements.length).to.equal(tiles);
   });
   it("Validate the text of footer", () => {
     const span = $("#app > footer > span");

@@ -1,3 +1,5 @@
+export const TILES = 6;
+
 export const URLs = {
     elements: "https://demoqa.com/elements",
     forms : "https://demoqa.com/forms",

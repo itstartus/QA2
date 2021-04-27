@@ -26,7 +26,9 @@ describe('Validate Elements section', () => {
         expect(TextBox.inputCurrentAddressPlaceholder).to.equal(labels.textBoxPlaceholders.currentAddress);
     });
     it('Fill the form, click Submit btn and validate the result', () => {
+        
         TextBox.fillForm(inputTextBox);
+        TextBox.btnSubmit.scrollIntoView();
         TextBox.btnSubmit.click();
         TextBox.resultFullName.scrollIntoView();
         expect(TextBox.resultFullName.getText().split(':')[1]).to.equal(inputTextBox.fullName);

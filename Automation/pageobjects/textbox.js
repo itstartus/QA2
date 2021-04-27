@@ -23,12 +23,7 @@ class TextBox {
   get inputEmailPlaceholder() {
     return this.inputEmail.getAttribute("placeholder");
   }
-  get inputEmail() {
-    return $("#userEmail");
-  }
-  get inputEmailPlaceholder() {
-    return this.inputEmail.getAttribute("placeholder");
-  }
+
   get inputCurrentAddress() {
     return $("textarea#currentAddress");
   }
