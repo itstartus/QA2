@@ -1,3 +1,5 @@
+export const TILES = 6;
+
 export const URLs = {
     elements: "https://demoqa.com/elements",
     forms : "https://demoqa.com/forms",
@@ -5,7 +7,9 @@ export const URLs = {
     widgets : "https://demoqa.com/widgets",
     interaction: "https://demoqa.com/interaction",
     books: "https://demoqa.com/books",
-    textBox: "https://demoqa.com/text-box"
+    textBox: "https://demoqa.com/text-box",
+    mainPage: "https://demoqa.com",
+    checkbox: "https://demoqa.com/checkbox"
 }
 
 export const labels = {
@@ -28,5 +32,6 @@ export const labels = {
         fullName: "Full Name",
         email: "name@example.com",
         currentAddress: "Current Address"
-    }
+    },
+    checkbox: "Check Box"
 }

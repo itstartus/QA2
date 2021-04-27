@@ -28,7 +28,8 @@ export const config = {
     ],
     // Patterns to exclude.
     exclude: [
-        './test/specs/**/mainPage.js'
+        './test/specs/**/mainPage.js',
+        './test/specs/**/textbox.js'
     ],
     //
     // ============
