@@ -9,7 +9,8 @@ export const URLs = {
     books: "https://demoqa.com/books",
     textBox: "https://demoqa.com/text-box",
     mainPage: "https://demoqa.com",
-    checkbox: "https://demoqa.com/checkbox"
+    checkbox: "https://demoqa.com/checkbox",
+    radioButton: "https://demoqa.com/radio-button"
 }
 
 export const labels = {
