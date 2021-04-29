@@ -30,7 +30,8 @@ export const config = {
     exclude: [
         './test/specs/**/mainPage.js',
         './test/specs/**/textbox.js',
-        './test/specs/**/checkbox.js'
+        './test/specs/**/checkbox.js',
+        './test/specs/**/radioButton.js'  
     ],
     //
     // ============

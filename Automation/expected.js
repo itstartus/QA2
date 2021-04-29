@@ -10,7 +10,8 @@ export const URLs = {
     textBox: "https://demoqa.com/text-box",
     mainPage: "https://demoqa.com",
     checkbox: "https://demoqa.com/checkbox",
-    radioButton: "https://demoqa.com/radio-button"
+    radioButton: "https://demoqa.com/radio-button",
+    webtable: "https://demoqa.com/webtables"
 }
 
 export const labels = {

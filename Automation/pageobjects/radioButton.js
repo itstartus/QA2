@@ -1,18 +1,19 @@
 class RadioButton {
   get yes() {
-    return $("label[for = 'yesRadio']");
+    return $("#yesRadio");
   }
   get no() {
-    return $("label[for = 'noRadio']");
+    return $("#noRadio");
   }
+
   get impressive() {
-    return $("label[for = 'impressiveRadio']");
+    return $("#impressiveRadio");
   }
-  get radioButtons(){
-      return [this.yes, this.impressive, this.no];
+  get radioButtons() {
+    return [this.yes, this.impressive, this.no];
   }
-  get textSuccess(){
-      return $('.text-success').getText();
+  get textSuccess() {
+    return $(".text-success").getText();
   }
 }
 
