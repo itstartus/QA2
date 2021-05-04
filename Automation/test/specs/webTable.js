@@ -1,8 +1,11 @@
 const expect = require("chai").expect;
+
 import WebTable from "../../pageobjects/webTable";
 import { URLs } from "../../expected";
+import {webTableData} from "../../input"
 
 describe("Validate WebTable section", () => {
+const myData = webTableData();
   it("Click on Add button and check that a new modal appears", () => {
     browser.url(URLs.webtable);
     if (!WebTable.btnAdd.isDisplayedInViewport())
@@ -17,14 +20,13 @@ describe("Validate WebTable section", () => {
     }
   });
   it('Fill the form with the text and click on Submit button', () => {
-        WebTable.firstName.setValue('Aliona');
-        WebTable.lastName.setValue('Granados');
-        WebTable.userEmail.setValue('aliona@gmail.com');
-        WebTable.age.setValue('25');
-        WebTable.salary.setValue('100000000000');
-        WebTable.department.setValue('IT');
-        WebTable.btnSubmit.click();
-        WebTable.modal.waitForExist({ timeout: 5000, reverse : true });
+        WebTable.fillWebTableData(myData);
         browser.pause(10000);
+        console.log(myData.firstName);
+        console.log(myData.lastName);
+        WebTable.btnAdd.click();
+        WebTable.fillWebTableData(webTableData());
+        console.log(myData.firstName);
+        console.log(myData.lastName);
   });
 });
