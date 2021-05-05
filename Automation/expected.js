@@ -11,7 +11,8 @@ export const URLs = {
     mainPage: "https://demoqa.com",
     checkbox: "https://demoqa.com/checkbox",
     radioButton: "https://demoqa.com/radio-button",
-    webtable: "https://demoqa.com/webtables"
+    webtable: "https://demoqa.com/webtables",
+    practiceForm: "https://demoqa.com/automation-practice-form"
 }
 
 export const labels = {

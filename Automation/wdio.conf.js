@@ -31,7 +31,8 @@ export const config = {
         './test/specs/**/mainPage.js',
         './test/specs/**/textbox.js',
         './test/specs/**/checkbox.js',
-        './test/specs/**/radioButton.js'  
+        './test/specs/**/radioButton.js',
+        './test/specs/**/webTable.js' 
     ],
     //
     // ============
