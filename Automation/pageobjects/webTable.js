@@ -50,6 +50,18 @@ class WebTable{
         this.btnSubmit.click();
         this.modal.waitForExist({ timeout: 5000, reverse : true });
     }
+    get tableBody(){
+        return $('.rt-tbody');
+    }
+    get tableRows(){
+        return $$('.rt-tr-group');
+    }
+    btnDelete(a){
+        return $(`#delete-record-${a}`);
+    }
+    btnEdit(a){
+        return $(`#edit-record-${a}`);
+    }
 }
 
 export default new WebTable();

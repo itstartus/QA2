@@ -40,4 +40,5 @@ describe("Validate Practice Form", () => {
     browser.keys("Enter");
     browser.pause(5000);
   });
+
 });
