@@ -1,6 +1,6 @@
 const expect = require("chai").expect;
 import {URLs} from "../../expected";
-import RadioButton from "../../pageobjects/radioButton";
+import RadioButton from "../../pageobjects/radioButton.page";
 
 describe('Validate Radio Button page', () => {
     it('Randomly select a radio button and validate the selection', () => {

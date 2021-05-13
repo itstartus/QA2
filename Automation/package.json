@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@wdio/cli": "^7.4.2",
+    "axios": "^0.21.1",
     "chai": "^4.3.4"
   },
   "devDependencies": {
@@ -25,6 +26,9 @@
   "scripts": {
     "test": "npx wdio run ./wdio.conf.js"
   },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC"

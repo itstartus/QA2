@@ -1,7 +1,6 @@
 const expect = require("chai").expect;
 import {URLs, labels} from "../../expected";
-import checkbox from "../../pageobjects/checkbox";
-import CheckBox from "../../pageobjects/checkbox";
+import CheckBox from "../../pageobjects/checkbox.page";
 describe('Test Suite to validate the functionality of Check Box page', () => {
     it('Validate URL of the page', () => {
         browser.url(URLs.mainPage);

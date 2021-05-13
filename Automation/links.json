@@ -1,0 +1,30 @@
+{
+  "created": {
+    "link": "https://demoqa.com/created",
+    "code": 201
+  },
+  "no_content": {
+    "link": "https://demoqa.com/no-content",
+    "code": 204
+  },
+  "moved": {
+    "link": "https://demoqa.com/moved",
+    "code": 301
+  },
+  "bad_request": {
+    "link": "https://demoqa.com/bad-request",
+    "code": 400
+  },
+  "unauthorized": {
+    "link": "https://demoqa.com/unauthorized",
+    "code": 401
+  },
+  "forbidden": {
+    "link": "https://demoqa.com/forbidden",
+    "code": 403
+  },
+  "not_found": {
+    "link": "https://demoqa.com/invalid-url",
+    "code": 500
+  }
+}

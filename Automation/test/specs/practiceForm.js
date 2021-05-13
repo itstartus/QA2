@@ -1,6 +1,6 @@
 const expect = require("chai").expect;
 import { URLs } from "../../expected";
-import PracticeForm from "../../pageobjects/practiceForm";
+import PracticeForm from "../../pageobjects/practiceForm.page";
 
 describe("Validate Practice Form", () => {
   // it('Make a selection in State DD', () => {

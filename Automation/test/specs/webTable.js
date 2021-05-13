@@ -1,6 +1,6 @@
 const expect = require("chai").expect;
 
-import WebTable from "../../pageobjects/webTable";
+import WebTable from "../../pageobjects/webTable.page";
 import { URLs } from "../../expected";
 import {webTableData} from "../../input"
 
